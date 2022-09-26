@@ -46,6 +46,15 @@ python pip install: <br>
     [datetime](https://docs.python.org/3/library/datetime.html) <br>
 *Assumption made for module challenge: the* **Path** *module will not be required to be explicitely called out in Installation guide section*
 
+
+The github repository also includes the MCForecastTools library as a Python file (**MCForecastTools.py**). To access this library, you import it into the Jupyter notebook. <br>
+The MCSimulation module contains multiple functions and parameters that help us configure, run, and evaluate a Monte Carlo simulation by using the stock information that an Alpaca API call returns. <br><br>
+Add the following python code to import the MCSimulation module from the MCForecastTools library file <br>
+```from MCForecastTools import MCSimulation``` <br><br>
+To review the documentation of the MCSimualtione module of the MCForcatTools library:<br>
+```?MCSimulation```
+
+
 To run Jupyter Lab, need to install Anaconda:
 * [Anaconda](https://docs.anaconda.com/anaconda/install/) - an open-source distribution of the Python
 ---
